@@ -1,4 +1,5 @@
 # word2vec
 
-An implementation of the word to vec algorithm, built to train either a CBOW or Skip-Gram model on any specified HuggingFace dataset.
-Running main will train a word-to-vec model and save the embeddings, and all model parameters can be tweaked in 'parameters.py'.
+A TensorFlow implementation of the word to vec algorithm.
+Allows you to train either a CBOW or Skip-Gram model on any HuggingFace dataset, and save the embeddings for later use.
+Model and training parameters can be tweaked in 'parameters.py'.
